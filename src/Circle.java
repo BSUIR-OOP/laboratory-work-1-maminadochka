@@ -1,9 +1,10 @@
-public class Circle extends Figures{
+public class Circle extends Figures {
 
-    private static final String FigureName = "Circle";
+    private String FigureName = "Circle";
 
-    @Override
-    public String getFigureName() {
-        return FigureName;
-    }
+    private int radius;
+    public Circle(int radius) {this.radius = radius;}
+
+    public void getFigureName() { System.out.println(String.format(FigureName + ' ' + this.radius));}
 }
+

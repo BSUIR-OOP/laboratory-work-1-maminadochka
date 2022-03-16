@@ -1,8 +1,9 @@
 public class Rhomb extends Figures {
-    private static final String FigureName = "Rhomb";
 
-    @Override
-    public String getFigureName() {
-        return FigureName;
-    }
+    private String FigureName = "Rhomb";
+
+    private int side,height;
+
+    public Rhomb(int side, int height){ this.side = side; this.height = height;}
+    public void getFigureName() {System.out.println(FigureName + ' ' + this.side + ' ' + this.height);}
 }

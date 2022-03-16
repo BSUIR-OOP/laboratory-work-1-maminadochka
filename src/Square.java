@@ -1,9 +1,12 @@
 public class Square extends Figures {
 
-    private static final String FigureName = "Square";
+    private String FigureName = "Square";
 
-    @Override
-    public String getFigureName() {
-        return FigureName;
+    private int side;
+
+    public Square(int side){ this.side = side;}
+
+    public void getFigureName() {
+        System.out.println(String.format(FigureName + ' ' + this.side));
     }
 }

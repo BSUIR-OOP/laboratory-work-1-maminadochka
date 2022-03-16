@@ -1,9 +1,9 @@
 public class Rectangle extends Figures {
 
-    private static final String FigureName = "Rectangle";
+    private String FigureName = "Rectangle";
 
-    @Override
-    public String getFigureName() {
-        return FigureName;
-    }
+    private int width, height;
+
+    public Rectangle(int width, int height){this.width = width; this.height = height;}
+    public void getFigureName() { System.out.println(String.format(FigureName + ' ' + this.width + ' ' + this.height));}
 }
