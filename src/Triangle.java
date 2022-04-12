@@ -1,4 +1,4 @@
-public class Triangle extends Figures {
+public class Triangle extends Figure {
 
     private String FigureName = "Triangle";
 

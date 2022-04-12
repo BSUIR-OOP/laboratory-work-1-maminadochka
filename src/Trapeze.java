@@ -1,4 +1,4 @@
-public class Trapeze extends Figures {
+public class Trapeze extends Figure {
 
     private String FigureName = "Trapeze";
 

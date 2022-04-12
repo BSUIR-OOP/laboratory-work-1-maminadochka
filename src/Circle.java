@@ -1,4 +1,4 @@
-public class Circle extends Figures {
+public class Circle extends Figure {
 
     private String FigureName = "Circle";
 

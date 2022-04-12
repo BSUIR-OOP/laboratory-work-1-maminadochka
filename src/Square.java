@@ -1,4 +1,4 @@
-public class Square extends Figures {
+public class Square extends Figure {
 
     private String FigureName = "Square";
 

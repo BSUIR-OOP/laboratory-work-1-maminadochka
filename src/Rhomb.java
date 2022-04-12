@@ -1,4 +1,4 @@
-public class Rhomb extends Figures {
+public class Rhomb extends Figure {
 
     private String FigureName = "Rhomb";
 
